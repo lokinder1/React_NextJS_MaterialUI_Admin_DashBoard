@@ -5,7 +5,6 @@ It's a simple SSR (server side rendering) admin dashboard thats made by using fo
 - NextJS
 - MaterialUI
 
-
 ```
 
 ## Tasks Completed
@@ -23,13 +22,18 @@ It's a simple SSR (server side rendering) admin dashboard thats made by using fo
 
 
 ## Demo ScreenShots
-![LogIn](https://ibb.co/wY1x0cB)
+- Login
+![LogIn](public/images/demo/login.png)
 
-![SignUp](https://ibb.co/mqPPX26)
+- SignUp
+![SignUp](public/images/demo/register.png)
 
-![HomePage](https://ibb.co/Xj1Mmp2)
+- HomePage
+![HomePage](public/images/demo/homepage.png)
 
-![DashBoard](https://ibb.co/Sx31QCF)
+- DashBoard
+![DashBoard](public/images/demo/dashboard.png)
 
-![Posts List](https://ibb.co/2WTs8Yj)
+- Posts List
+![Posts List](public/images/demo/postsList.png)
 
