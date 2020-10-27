@@ -1,9 +1,19 @@
 # React_NextJS_MaterialUI_Admin_DashBoard
 ```
-It's a simple SSR (server side rendering) admin dashboard thats made by using following frontend technologies
+It's a simple SSR (server side rendering) admin dashboard 
+thats made by using following frontend technologies
 - ReactJS
 - NextJS
 - MaterialUI
+
+```
+## How To Run 
+```
+    1. Install Packages
+    yarn
+
+    2. start Client App
+    yarn dev
 
 ```
 
