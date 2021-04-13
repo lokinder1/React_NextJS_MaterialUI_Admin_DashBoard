@@ -38,7 +38,7 @@ export default function EditPost() {
   const [title, setTitle] = useState();
   const [body, setBody] = useState();
 
-  const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+  const { enqueueSnackbar } = useSnackbar();
 
   async function getPost() {
     var urlParams = new URLSearchParams(location.search);

@@ -55,7 +55,7 @@ export default function ListPosts() {
 
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
-  const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+  const { enqueueSnackbar } = useSnackbar();
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
