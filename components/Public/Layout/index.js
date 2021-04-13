@@ -6,12 +6,12 @@ import Header from "./Shared/Header";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    "overflow-x": "hidden",
   },
 
   content: {
     // height: "100vh",
   },
-
 }));
 export default function PublicLayout(props) {
   const classes = useStyles();
@@ -26,7 +26,7 @@ export default function PublicLayout(props) {
           <main className={classes.content}>{props.children}</main>
         </Grid>
         <Grid item xs={12} className={classes.footer}>
-          <Footer/>
+          <Footer />
         </Grid>
       </Grid>
     </div>
